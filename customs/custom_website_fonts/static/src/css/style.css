@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Hoftype';
+  src: url('../fonts/Hoftype.ttf') format('ttf');
+}
+
+body {
+  font-family: 'Hoftype' !important;
+}
+h1 {
+  font-family: 'Hoftype' !important;
+}
+h2 {
+  font-family: 'Hoftype' !important;
+}
+h3 {
+  font-family: 'Hoftype' !important;
+}
+p {
+  font-family: 'Hoftype' !important;
+}
+
+a {
+  font-family: 'Hoftype' !important;
+}
