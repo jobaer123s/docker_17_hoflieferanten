@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Hoftype';
+    //src: url('/custom_website_fonts/static/src/fonts/Hoftype.ttf') format('truetype');
+    src: url('../fonts/Hoftype.ttf') format('truetype');
+    font-weight: 400;
+}
+//@font-face {
+//    font-family: 'Josefin-Sans-Bold';
+//    src: url('/custom_theme/static/src/fonts/JosefinSans-Bold.ttf') format('truetype');
+//    font-weight: 'bold';
+//}
+//$o-theme-font-configs: map-merge($o-base-theme-font-configs, $o-theme-font-configs,(
+//    'Hoftype': (
+//        'family': ('Hoftype'),
+//    )
+//));
+//$o-theme-font-configs: (
+//    'Hoftype': (
+//        'family': ('Hoftype', Hoftype),
+//        'url': 'Hoftype:300,300i,400,400i,700,700i',
+//    ),
+//)
+$o-theme-font-configs: map-merge($o-theme-font-configs, (
+    'Hoftype': (
+        'family': ('Hoftype'),
+    )
+));
